@@ -1,0 +1,3 @@
+i want to built applications that interact directly with end consumers. I want
+the application to interact with the user on the audio and visual level (text)
+, beyond that I don't know.
