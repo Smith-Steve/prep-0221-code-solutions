@@ -18,7 +18,7 @@ console.log(person);
 var myCar = { make: 'Chrysler', model: 'GT Lebaron', year: 1986, interior: 'Cheetah-Zebra' };
 console.log(myCar);
 
-myCar['cwner'] = fullName;
+myCar['owner'] = fullName;
 myCar['color'] = 'dark blue';
 console.log(`${myCar.owner} is the owner of the ${myCar.year} ${myCar.make} ${myCar.model}`);
 console.log(person);
