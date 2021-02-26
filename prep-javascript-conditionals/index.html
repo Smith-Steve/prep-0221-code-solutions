@@ -10,7 +10,7 @@
 <body>
   <script>
     // Your code here
-    var age = 32; var student1Score = 99; var student2Score = 90;
+    var age = 32; var student1Score = 99; var student2Score = 90; var season = 'spring'; var dayOfTheWeek = 'thursday';
     if (age < 18) {
       console.log('A child!');
     } else {
@@ -35,6 +35,26 @@
       console.log('A');
     } else {
       console.log('A++');
+    }
+
+    if (season === 'summer') {
+      console.log('it\'s not hot today.');
+    } else if (season === 'spring') {
+      console.log('the flowers are blooming.');
+    } else if (season === 'autumn') {
+      console.log('the leaves are changing colors.');
+    } else if (season === 'winter') {
+      console.log('it\'s cold today.');
+    } else {
+      console.log('please enter a valid season into the console.');
+    }
+
+    if (dayOfTheWeek === 'saturday') {
+      console.log('Saturday!');
+    } else if (dayOfTheWeek === 'sunday') {
+      console.log('Sunday!');
+    } else {
+      console.log('It\'s a weekday!');
     }
   </script>
 </body>
