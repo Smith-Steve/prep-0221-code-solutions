@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Manipulation</title>
+  <style>
+    #container {
+      border: 2px solid green;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <p class="first-paragraph">
+      I really like coding.
+    </p>
+    <p class="second-paragraph">
+
+    </p>
+    <p class="third-paragraph">
+
+    </p>
+  </div>
+  <script>
+    // Your code here
+    var secondParagraph = document.querySelector('p.second-paragraph');
+    var addedText = 'I also really like to watch television and eating pancakes.';
+    secondParagraph.textContent = addedText;
+    var thirdParagraph = document.querySelector('p.third-paragraph'); var addedText2 = 'I hope to also meet people that one day like coding, television and pankcakes.';
+    thirdParagraph.textContent = addedText2;
+  </script>
+</body>
+
+</html>
